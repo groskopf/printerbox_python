@@ -1,1 +1,1 @@
-docker build -t printbox_python:v1 .
+docker build -t printerbox_python:v1 .
