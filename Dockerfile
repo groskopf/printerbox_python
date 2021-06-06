@@ -15,3 +15,5 @@ VOLUME /data
 WORKDIR /data
 
 COPY blink/blink-tool /usr/bin
+COPY blink/51-blink1.rules /etc/udev/rules.d/51-blink1.rules
+RUN  udevadm control --reload && udevadm trigger
