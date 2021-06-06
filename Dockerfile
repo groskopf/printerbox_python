@@ -14,5 +14,4 @@ RUN apt-get update && apt-get install -y \
 VOLUME /data
 WORKDIR /data
 
-# FIXME remove
-COPY label.pdf label.pdf
+COPY blink/blink-tool /usr/bin
