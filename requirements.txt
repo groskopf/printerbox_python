@@ -1,2 +1,7 @@
+fastapi
+starlette
+websocket-client
+autopep8
+rel
+openapi-python-client
 requests
-

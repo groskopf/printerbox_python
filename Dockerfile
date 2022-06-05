@@ -1,4 +1,3 @@
-#FROM python:3
 FROM balenalib/raspberry-pi-debian-python:latest
 
 ENV UDEV=1
